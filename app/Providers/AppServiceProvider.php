@@ -37,6 +37,7 @@ class AppServiceProvider extends ServiceProvider
             $format = str_replace(
                 [
                     'data:image/',
+                    
                     ';',
                     'base64',
                 ],
